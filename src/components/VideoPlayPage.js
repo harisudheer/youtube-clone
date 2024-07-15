@@ -1,10 +1,8 @@
-VideoPlayPage.js
 import React from 'react';
 
 const VideoPlayPage = () => {
     return (
         <div>
-            {/* Embedded YouTube player */}
             <iframe
                 width="560"
                 height="315"
@@ -12,7 +10,6 @@ const VideoPlayPage = () => {
                 title="YouTube video player"
                 allowFullScreen
             ></iframe>
-            {/* Related videos */}
             <div>Related Videos</div>
         </div>
     );
